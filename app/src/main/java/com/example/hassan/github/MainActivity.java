@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void TheButtonOnClick(View view){
         TheTextView.setText(InputText.getText().toString());
+        InputText.setText("");
     }
 
 
